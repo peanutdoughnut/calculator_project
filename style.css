@@ -12,3 +12,13 @@ button{
     border-radius: 5px;
 }
 
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+    display: block;
+}
+
+button{
+    
+    flex: 1;
+}
