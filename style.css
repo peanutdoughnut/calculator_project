@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+}
+
+button{
+    background-color: bisque;
+}
+.display{
+    background-color: whitesmoke;
+    height: 150px;
+    border: 5px snow;
+    border-radius: 5px;
+}
+
