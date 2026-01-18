@@ -18,7 +18,10 @@ button{
     display: block;
 }
 
-button{
-    
-    flex: 1;
+
+#operators{
+    display: flex;
+    flex-direction: column;
+    float: right;
 }
+
