@@ -24,3 +24,7 @@ button{
     float: right;
 }
 
+#container{
+    border: 5px solid rebeccapurple;
+    margin: 50px;
+}
