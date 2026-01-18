@@ -13,9 +13,8 @@ button{
 }
 
 #numbers{
-    display: flex;
-    flex-wrap: wrap;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
