@@ -39,3 +39,23 @@ operator = (choice, num1, num2) => {
         return 'Invalid operator';
     }
 }
+
+//function to take user input
+
+// Get the display element
+const display = document.querySelector('.display');
+
+// Initialize display value
+let displayValue = '';
+
+// Function to update display
+function updateDisplay() {
+    display.textContent = displayValue;
+}
+
+// Add event listener for number 0
+const zeroButton = document.querySelector('.zero');
+zeroButton.addEventListener('click', () => {
+    displayValue += '0';
+    updateDisplay();
+});
