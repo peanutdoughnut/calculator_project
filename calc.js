@@ -59,3 +59,10 @@ zeroButton.addEventListener('click', () => {
     displayValue += '0';
     updateDisplay();
 });
+
+//add event listener for number 1
+const oneButton = document.querySelector(".one");
+oneButton.addEventListener('click', () =>{
+    displayValue += '1';
+    updateDisplay();
+}) ;
