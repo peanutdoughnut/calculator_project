@@ -66,3 +66,10 @@ oneButton.addEventListener('click', () =>{
     displayValue += '1';
     updateDisplay();
 }) ;
+
+//add event listener for number two
+const twoButton = document.querySelector(".two");
+twoButton.addEventListener('click', () =>{
+    displayValue += '2';
+    updateDisplay();
+})
