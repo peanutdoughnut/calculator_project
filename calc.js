@@ -73,3 +73,52 @@ twoButton.addEventListener('click', () =>{
     displayValue += '2';
     updateDisplay();
 })
+
+//add event listener for button three
+const threeButton = document.querySelector(".three");
+threeButton.addEventListener('click', () =>{
+    displayValue += '3';
+    updateDisplay();
+})
+
+//add event listener for button four
+const fourButton = document.querySelector(".four");
+fourButton.addEventListener('click', () =>{
+    displayValue += '4';
+    updateDisplay();
+})
+
+//add event listener for button five
+const fiveButton = document.querySelector(".five");
+fiveButton.addEventListener('click', () =>{
+    displayValue += '5';
+    updateDisplay();
+})
+
+//add event listener for button six
+const sixButton = document.querySelector(".six");
+sixButton.addEventListener('click', () =>{
+    displayValue += '6';
+    updateDisplay();
+})
+
+//add event listener for button seven
+const sevenButton = document.querySelector(".seven");
+sevenButton.addEventListener('click', () =>{
+    displayValue += '7';
+    updateDisplay();
+})
+
+//add event listener for button eight
+const eightButton = document.querySelector(".eight");
+eightButton.addEventListener('click', () =>{
+    displayValue += '8';
+    updateDisplay();
+})
+
+//add event listener for button nine
+const nineButton = document.querySelector(".nine");
+nineButton.addEventListener('click', () =>{
+    displayValue += '9';
+    updateDisplay();
+})
