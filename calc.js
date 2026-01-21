@@ -122,3 +122,28 @@ nineButton.addEventListener('click', () =>{
     displayValue += '9';
     updateDisplay();
 })
+
+//add event listeners for operators
+const plusButton = document.querySelector('.plus');
+plusButton.addEventListener('click', () =>{
+    displayValue += '+';
+    updateDisplay();
+});
+
+const minusButton = document.querySelector(".minus");
+minusButton.addEventListener("click", () =>{
+    displayValue += '-';
+    updateDisplay();
+});
+
+const multiplyButton = document.querySelector(".multiply");
+multiplyButton.addEventListener('click', () =>{
+    displayValue += 'x';
+    updateDisplay();
+})
+
+const divideButton = document.querySelector('.divide');
+divideButton.addEventListener('click', () =>{
+    displayValue += "/";
+    updateDisplay();
+})
