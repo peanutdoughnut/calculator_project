@@ -154,5 +154,5 @@ divideButton.addEventListener('click', () =>{
 
 const equalsButton = document.querySelector('.equals')
 equalsButton.addEventListener("click", () =>{
-
+    operator();
 })
