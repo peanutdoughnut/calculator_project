@@ -128,28 +128,28 @@ const plusButton = document.querySelector('.plus');
 plusButton.addEventListener('click', () =>{
     displayValue += '+';
     updateDisplay();
-    choice === "+";
+    choice = "+";
 });
 
 const minusButton = document.querySelector(".minus");
 minusButton.addEventListener("click", () =>{
     displayValue += '-';
     updateDisplay();
-    choice === "-";
+    choice = "-";
 });
 
 const multiplyButton = document.querySelector(".multiply");
 multiplyButton.addEventListener('click', () =>{
     displayValue += '*';
     updateDisplay();
-    choice === "*";
+    choice = "*";
 })
 
 const divideButton = document.querySelector('.divide');
 divideButton.addEventListener('click', () =>{
     displayValue += "/";
     updateDisplay();
-    choice === '/';
+    choice = '/';
 })
 
 const equalsButton = document.querySelector('.equals')
