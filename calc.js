@@ -1,8 +1,9 @@
 //created variables for the numbers and operator selection
-let num1 = 0;
-let num2 = 0;
+let num1 = null;
+let num2 = null;
 let choice;
-let answer = 0;
+let answer = null;
+let currentInput = "";
 
 //function to add two numbers
 
