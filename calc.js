@@ -41,6 +41,12 @@ operator = (choice, num1, num2) => {
     }
 }
 
+//function for capturing numbers entered
+pressNumber = (value) =>{
+    currentInput += value;
+    display.textContent = currentInput;
+}
+
 //function to take user input
 
 // Get the display element
