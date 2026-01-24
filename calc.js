@@ -62,73 +62,44 @@ function updateDisplay() {
 
 // Add event listener for number 0
 const zeroButton = document.querySelector('.zero');
-zeroButton.addEventListener('click', () => {
-    displayValue += '0';
-    updateDisplay();
-});
+zeroButton.addEventListener('click', () => pressNumber('0')
+);
 
 //add event listener for number 1
 const oneButton = document.querySelector(".one");
-oneButton.addEventListener('click', () =>{
-    displayValue += '1';
-    updateDisplay();
-}) ;
+oneButton.addEventListener('click', () => pressNumber('1'));
 
 //add event listener for number two
 const twoButton = document.querySelector(".two");
-twoButton.addEventListener('click', () =>{
-    displayValue += '2';
-    updateDisplay();
-})
+twoButton.addEventListener('click', () => pressNumber('2'));
 
 //add event listener for button three
 const threeButton = document.querySelector(".three");
-threeButton.addEventListener('click', () =>{
-    displayValue += '3';
-    updateDisplay();
-})
+threeButton.addEventListener('click', () => pressNumber('3'));
 
 //add event listener for button four
 const fourButton = document.querySelector(".four");
-fourButton.addEventListener('click', () =>{
-    displayValue += '4';
-    updateDisplay();
-})
+fourButton.addEventListener('click', () => pressNumber('4'));
 
 //add event listener for button five
 const fiveButton = document.querySelector(".five");
-fiveButton.addEventListener('click', () =>{
-    displayValue += '5';
-    updateDisplay();
-})
+fiveButton.addEventListener('click', () => pressNumber('5'));
 
 //add event listener for button six
 const sixButton = document.querySelector(".six");
-sixButton.addEventListener('click', () =>{
-    displayValue += '6';
-    updateDisplay();
-})
+sixButton.addEventListener('click', () => pressNumber('6'));
 
 //add event listener for button seven
 const sevenButton = document.querySelector(".seven");
-sevenButton.addEventListener('click', () =>{
-    displayValue += '7';
-    updateDisplay();
-})
+sevenButton.addEventListener('click', () => pressNumber('7'));
 
 //add event listener for button eight
 const eightButton = document.querySelector(".eight");
-eightButton.addEventListener('click', () =>{
-    displayValue += '8';
-    updateDisplay();
-})
+eightButton.addEventListener('click', () => pressNumber('8'));
 
 //add event listener for button nine
 const nineButton = document.querySelector(".nine");
-nineButton.addEventListener('click', () =>{
-    displayValue += '9';
-    updateDisplay();
-})
+nineButton.addEventListener('click', () => pressNumber('9'));
 
 //add event listeners for operators
 const plusButton = document.querySelector('.plus');
