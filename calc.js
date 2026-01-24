@@ -104,33 +104,42 @@ nineButton.addEventListener('click', () => pressNumber('9'));
 //add event listeners for operators
 const plusButton = document.querySelector('.plus');
 plusButton.addEventListener('click', () =>{
-    displayValue += '+';
-    updateDisplay();
-    choice = "+";
+    num1 = Number(currentInput);
+    choice='+';
+    currentInput = "";
 });
 
 const minusButton = document.querySelector(".minus");
 minusButton.addEventListener("click", () =>{
-    displayValue += '-';
-    updateDisplay();
-    choice = "-";
+    num1 = Number(currentInput);
+    choice = '-';
+    currentInput = "";
 });
 
 const multiplyButton = document.querySelector(".multiply");
 multiplyButton.addEventListener('click', () =>{
-    displayValue += '*';
-    updateDisplay();
-    choice = "*";
-})
+    num1 = Number(currentInput);
+    choice = '*';
+    currentInput = "";
+});
 
 const divideButton = document.querySelector('.divide');
 divideButton.addEventListener('click', () =>{
-    displayValue += "/";
-    updateDisplay();
+    num1 = Number(currentInput);
     choice = '/';
-})
+    currentInput = "";
+});
 
 const equalsButton = document.querySelector('.equals')
-equalsButton.addEventListener("click", () =>{
-    operator();
-})
+equalsButton.addEventListener('click', () => {
+    num2 = Number(currentInput);   // store second number
+    answer = operator(choice, num1, num2);
+
+    display.textContent = answer;
+
+    // allow continued calculation
+    currentInput = answer.toString();
+    num1 = null;
+    num2 = null;
+    choice = null;
+});
