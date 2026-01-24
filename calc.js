@@ -143,3 +143,14 @@ equalsButton.addEventListener('click', () => {
     num2 = null;
     choice = null;
 });
+
+//add event listener for clear button
+const clearButton = document.querySelector('.clear');
+clearButton.addEventListener('click', () => {
+    currentInput = "";
+    num1 = null;
+    num2 = null;
+    choice = null;
+    answer = null;
+    display.textContent = "";
+});
